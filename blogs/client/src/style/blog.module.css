@@ -1,0 +1,31 @@
+.sidebar {
+  width: 25%;
+  padding: 10px;
+  height: 95vh;
+  position: sticky;
+  top: 0;
+  padding-top: 20px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.mainContent {
+  padding: 5px;
+  width: calc(75% - 10px);
+  min-height: 100vh;
+  border-right: 1px solid var(--grey);
+}
+.searchBox {
+  width: 100%;
+  margin: auto;
+  border: 2px solid var(--grey);
+  height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.searchBox input {
+  width: 80%;
+  border: none;
+  height: 100%;
+  outline: none;
+  padding: 0px 10px;
+}

@@ -1,0 +1,45 @@
+body {
+  font-family: var(--primary-font);
+  color: black;
+}
+
+p {
+  margin-top: 10px;
+  line-height: 2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  font-family: var(--heading-font);
+  margin: 10px 0px;
+}
+
+h1 {
+  font-family: var(--secondary-font);
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: var(--secondary-font);
+  font-size: 2rem;
+}
+
+img {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+strong {
+  font-family: var(--heading-font);
+}

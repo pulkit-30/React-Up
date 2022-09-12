@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather+Sans:wght@800&family=Poppins:wght@300&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+:root {
+  --white: #ffffff;
+  --grey: #ebe6da;
+  --yellow: #ffd24f;
+  --rose: #ff5255;
+  --blue: #00315e;
+  --canvas: #ffffff;
+  --surface: #ffffff;
+  --text: #00315e;
+  --dot: #787878;
+  --canvas-reverse: #ffffff;
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+  --heading-font: 'Merriweather Sans', sans-serif;
+  --logo-font: 'Great Vibes', cursive;
+  --primary-color: #0c0c0c;
+  --secondary-color: #fff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

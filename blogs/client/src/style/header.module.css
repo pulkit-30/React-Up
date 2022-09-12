@@ -1,0 +1,24 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+
+  padding: 10px;
+  background-color: white;
+  border-bottom: 2px solid var(--grey);
+}
+.navBox_left {
+  height: 100%;
+  width: 20%;
+}
+.navBox_left h3 {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  font-family: var(--logo-font) !important;
+}
+.navBox_right {
+  height: 100%;
+  width: 20%;
+}

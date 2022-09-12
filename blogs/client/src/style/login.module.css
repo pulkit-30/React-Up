@@ -1,0 +1,52 @@
+.FormBox {
+  border-radius: 5px;
+  overflow: hidden;
+
+  margin: 2rem auto;
+}
+.form {
+  /* min-height: 30vh !important; */
+  width: 50%;
+  padding: 10px 0px;
+}
+.inputField {
+  width: 80% !important;
+  margin: 1.5rem auto !important;
+}
+.btn {
+  font-size: 15px;
+  height: 50px !important;
+}
+.FormBox img {
+  width: 30%;
+}
+
+@media screen and (max-width: 1000px) {
+  .form {
+    width: 80vw;
+    flex-direction: column;
+  }
+  .FormBox {
+    width: 90%;
+    height: 80vh;
+    flex-direction: column-reverse;
+  }
+  .FormBox img {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 517px) {
+  .form {
+    width: 100%;
+    flex-direction: column;
+  }
+  .FormBox {
+    width: 80%;
+    height: 80vh;
+    flex-direction: column-reverse;
+  }
+  .FormBox img {
+    width: 80vw;
+  }
+}
