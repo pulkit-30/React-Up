@@ -1,0 +1,25 @@
+.Row {
+  width: 100vw;
+  height: 480px;
+  background-color: rgb(255, 255, 255);
+  overflow-x: auto;
+  overflow-y: hidden;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.082);
+}
+.Row ::-webkit-scrollbar {
+  display: none;
+}
+.Head {
+  width: 100vw;
+  font-size: 30px;
+  /* letter-spacing: 5px; */
+  color: rgba(32, 32, 32, 0.815);
+  font-weight: bolder;
+  font-family: var(--primary-font);
+  position: relative;
+  padding: 20px;
+  background-color: white;
+  margin: 0;
+}

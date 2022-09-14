@@ -1,0 +1,12 @@
+.items {
+  justify-content: space-between !important;
+}
+.items div {
+  width: 200px;
+  margin: 0px 1px;
+  /* text-align: left; */
+}
+.input {
+  width: 50%;
+  margin: 0px 10px;
+}

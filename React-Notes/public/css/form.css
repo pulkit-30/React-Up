@@ -1,0 +1,80 @@
+form {
+  flex-direction: column;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 1rem;
+  border-radius: 20px;
+  height: fit-content;
+  background-color: var(--secondary-color);
+}
+input {
+  outline: none;
+  border: none;
+  height: 40px;
+  padding: 5px;
+  width: 40rem;
+  margin: 2px 0px;
+  transition: 1s;
+  border-radius: 10px;
+}
+input:focus,
+textarea:focus {
+  border-bottom: 2px solid var(--primary-color);
+}
+textarea {
+  border-radius: 10px;
+  outline: none;
+  transition: 1s;
+  height: 20vh;
+  border: none;
+  padding: 5px;
+  width: 40rem;
+  margin: 5px 0px 0px 0px;
+  resize: none;
+}
+.btn {
+  cursor: pointer;
+  position: relative;
+  left: 17rem;
+  bottom: 2rem;
+  color: var(--secondary-color);
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  font: inherit;
+  font-size: 2rem;
+  font-weight: bolder;
+  transition: 0.2s;
+  border: 3px solid var(--primary-color);
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: 3px solid var(--primary-color);
+}
+@media screen and (max-width: 800px) {
+  input {
+    width: 80vw;
+  }
+
+  textarea {
+    width: 80vw;
+  }
+  .btn {
+    position: relative;
+    left: 33vw;
+    bottom: 2rem;
+    color: var(--secondary-color);
+    padding: 0.3rem 0.9rem;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    font: inherit;
+    font-size: 2rem;
+    font-weight: bolder;
+    transition: 0.2s;
+    border: 3px solid var(--primary-color);
+  }
+}

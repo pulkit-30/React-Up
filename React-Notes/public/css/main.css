@@ -1,0 +1,32 @@
+.container {
+  flex-direction: row;
+  width: 100%;
+}
+.box {
+  background-color: white;
+  padding: 2rem;
+  margin: 2rem;
+  min-height: 130px;
+  min-width: 250px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.165);
+  position: relative;
+  border-radius: 10px;
+}
+.title {
+  font-weight: bolder;
+  color: black;
+  font-size: 20px;
+}
+.note {
+  margin-top: 2px;
+  font-size: 15px;
+  color: black;
+}
+.delete {
+  border: none;
+  color: rgba(255, 0, 0, 0.663);
+  position: absolute;
+  background: none;
+  bottom: 2px;
+  right: 4px;
+}

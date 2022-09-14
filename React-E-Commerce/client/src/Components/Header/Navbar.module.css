@@ -1,0 +1,168 @@
+.Navbar {
+  background-color: var(--dark-color);
+  height: 80px;
+  justify-content: space-between;
+  z-index: 1000;
+}
+.Logo {
+  width: 25%;
+  /* background-color: aqua; */
+  font-family: var(--heading-font);
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.SearchBox {
+  border-radius: 50px;
+  width: 30%;
+  height: 60%;
+  background-color: white;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.SearchBox input {
+  height: 100%;
+  width: 90%;
+  /* background-color: aqua; */
+  border: none;
+  padding: 10px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  outline: none;
+}
+.SearchBox i {
+  width: 10%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+}
+.Cart {
+  font-family: var(--secondary-font);
+  color: white;
+  font-size: 30px;
+  width: 20%;
+  height: 90%;
+}
+.User {
+  position: relative;
+  /* background-color: beige; */
+  width: 20%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+.Profile {
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  /* background-color: aqua; */
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  overflow: hidden;
+}
+.Profile img {
+  object-fit: contain;
+  height: 50px;
+  width: 50px;
+  /* z-index: 100; */
+}
+.Active_Link {
+  opacity: 1 !important;
+  color: rgb(197, 232, 255);
+}
+@media (max-width: 1062px) {
+  .Logo {
+    font-size: 2rem;
+    width: 25%;
+  }
+  .SearchBox {
+    width: 35%;
+  }
+  .Cart {
+    width: 20%;
+  }
+  .User {
+    width: 20%;
+  }
+}
+@media (max-width: 868px) {
+  .Navbar {
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 180px;
+    position: relative;
+  }
+  .Logo {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    font-size: 2.3rem;
+    width: 70%;
+    /* background-color: aqua; */
+    justify-content: left;
+  }
+  .SearchBox {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    height: 40px;
+    width: 90%;
+  }
+  .Cart {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    height: fit-content;
+    font-size: 35px;
+    /* background-color: aqua; */
+  }
+  .User {
+    justify-content: right;
+    align-items: flex-start;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 50%;
+  }
+}
+@media (max-width: 484px) {
+  .Navbar {
+    height: 140px;
+  }
+  .Logo {
+    width: 55%;
+    font-size: 1.8rem;
+    justify-content: left;
+    letter-spacing: unset;
+  }
+  .Cart {
+    font-size: 1.5rem;
+    right: 19%;
+  }
+  .User {
+    /* background-color: aqua; */
+    top: 10px;
+    right: 10px;
+    width: 52%;
+    justify-content: right;
+    align-items: flex-end;
+    height: fit-content;
+  }
+  .User .Profile {
+    width: 40px;
+    height: 40px;
+  }
+  .User .Profile img {
+    width: 40px;
+    height: 40px;
+  }
+}

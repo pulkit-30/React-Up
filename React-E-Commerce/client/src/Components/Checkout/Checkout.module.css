@@ -1,0 +1,112 @@
+.Form_Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Image_Box {
+  height: 20vh;
+  width: 80%;
+  /* background-color: aqua; */
+  overflow: hidden;
+  margin: auto;
+}
+.Image_Box img {
+  width: 30%;
+  margin: auto;
+  object-fit: cover;
+  position: relative;
+  bottom: 4rem;
+}
+.CheckOut {
+  width: 80vw;
+  /* background-color: aqua; */
+  margin: auto;
+  flex-direction: column;
+  padding: 30px 0px;
+}
+.Input {
+  padding: 5px;
+  font-size: 20px;
+  width: 80%;
+  height: 35px;
+  margin: 10px auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.btn {
+  width: 50%;
+  height: 70px !important;
+  font-size: 20px;
+}
+@media (max-width: 1000px) {
+  .Image_Box {
+    height: 20vh;
+    width: 80%;
+    /* background-color: aqua; */
+    overflow: hidden;
+  }
+  .Image_Box img {
+    width: 50%;
+    margin: auto;
+    object-fit: cover;
+    position: relative;
+    bottom: 3rem;
+  }
+}
+@media (max-width: 800px) {
+  .Image_Box {
+    height: 15vh;
+    width: 100%;
+  }
+  .Image_Box img {
+    width: 50%;
+    margin: auto;
+    bottom: 5rem;
+  }
+}
+@media (max-width: 600px) {
+  .Image_Box {
+    height: 20vh;
+    width: 100%;
+  }
+  .Image_Box img {
+    width: 80%;
+    margin: auto;
+    bottom: 5rem;
+  }
+  .Input {
+    width: 100% !important;
+  }
+}
+@media (max-width: 400px) {
+  .Image_Box {
+    height: 20vh;
+    width: 100%;
+  }
+  .Image_Box img {
+    width: 100%;
+    margin: auto;
+    bottom: 5rem;
+  }
+}
+.Box {
+  border: 1px solid black;
+  width: 80vw;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.Box img {
+  object-fit: cover;
+  width: 50%;
+  height: 50%;
+}

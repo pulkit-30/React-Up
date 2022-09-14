@@ -1,0 +1,59 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 5px 0px;
+  color: white;
+  background-color: #171010;
+  width: 100%;
+  justify-content: space-around !important;
+  z-index: 100;
+}
+
+.hamburger {
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+.NavMenu {
+  background-color: #171010;
+  height: 100vh;
+  width: 30vw;
+  z-index: 100;
+  color: white;
+  flex-direction: column !important;
+  transition: 0.5s;
+  clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%);
+  overflow: visible;
+  z-index: 10;
+}
+.CartNumber {
+  position: absolute;
+  top: 10px;
+  transition: 0.2s;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 4px 8px;
+  border-radius: 50%;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  z-index: 100;
+}
+@media (max-width: 600px) {
+  .NavMenu {
+    width: 50vw;
+  }
+}
+.item {
+  font-size: 20px;
+  margin: 20px 0px;
+  width: 150px;
+  text-align: left;
+  padding: 0px 10px;
+  border-left: 2px solid #4b3939;
+}
+.menu {
+  flex-direction: column !important;
+  height: 100%;
+}

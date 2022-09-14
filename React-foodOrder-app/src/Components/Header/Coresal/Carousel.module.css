@@ -1,0 +1,26 @@
+.image {
+  width: 100vw;
+  height: 80vh;
+  background: none;
+  z-index: 0;
+}
+@media (max-width: 600px) {
+  .image {
+    width: 100vw;
+    height: 40vh;
+    background: none;
+  }
+}
+.Carousel {
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 60% 100%, 0 95%);
+  z-index: 10;
+}
+.Carousel::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,46 @@
+.Auth__Form {
+  flex-direction: column !important;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+  height: 100vh;
+  text-align: center;
+  /* background-color: aqua; */
+  z-index: -1 !important;
+}
+.Form {
+  height: 70%;
+  display: flex;
+  position: relative;
+  /* bottom: 13rem; */
+  flex-direction: column !important;
+  /* background-color: antiquewhite; */
+}
+.Input {
+  padding: 3px;
+  margin: 5px auto;
+  width: 20rem;
+  height: 40px;
+  border: 1px solid black;
+  /* background-color: azure; */
+}
+.Image_box {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  /* background-color: rgb(255, 0, 234); */
+}
+.Image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  bottom: 10rem;
+}
+.btn {
+  font-size: 20px;
+  margin-top: 30px !important;
+  width: 100%;
+  height: 40px;
+  padding: 25px 0px !important;
+}

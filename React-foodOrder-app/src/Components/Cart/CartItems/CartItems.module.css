@@ -1,0 +1,10 @@
+.items {
+  width: 100%;
+  justify-content: space-between !important;
+}
+.items div {
+  width: 100%;
+}
+.input {
+  margin: 0px 10px;
+}

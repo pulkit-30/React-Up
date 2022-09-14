@@ -1,0 +1,9 @@
+.form {
+  justify-content: space-between;
+  flex-direction: column !important;
+  padding: 20px;
+}
+.width {
+  width: 80% !important;
+  margin: 10px auto !important;
+}

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&family=Montserrat+Alternates:wght@300&family=Roboto:wght@300&family=Ubuntu&display=swap");
+
+:root {
+  --primary-color: #352f44;
+  --secondary-color: #5c5470;
+  --dark-color: #2a2438;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Ubuntu", sans-serif;
+  --Cursive-font: "Montserrat Alternates", sans-serif;
+  --heading-font: "Alegreya Sans", sans-seri;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body {
+  background-color: rgb(238, 238, 238);
+  font-family: var(--primary-font);
+  font-size: 20px;
+  letter-spacing: 2px;
+}

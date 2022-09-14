@@ -1,0 +1,12 @@
+.Box {
+  width: 300px;
+  height: 460px;
+  background-color: white;
+  margin: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.103);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
