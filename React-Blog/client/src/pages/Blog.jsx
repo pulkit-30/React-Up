@@ -33,7 +33,7 @@ const Blog = () => {
       <Cover />
       {!blogData.length && (
         <div className='flex m-t-10 p-10'>
-          <Spinner />
+          <Spinner /> &nbsp; Loading...
         </div>
       )}
       {blogData.length !== 0 && (
